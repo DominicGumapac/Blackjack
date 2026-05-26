@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Blackjack Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Blackjack</h1>
+
+<input id="playerName" placeholder="Enter name">
+
+<div class="box">
+<h3>Dealer</h3>
+<p id="dealerCards"></p>
+<p id="dealerSum"></p>
+</div>
+
+<div class="box">
+<h3>Player</h3>
+<p id="playerCards"></p>
+<p id="playerSum"></p>
+</div>
+
+<div class="buttons">
+<button id="startBtn">Start</button>
+<button id="hitBtn">Hit</button>
+<button id="standBtn">Stand</button>
+</div>
+
+<h2 id="result"></h2>
+<h3 id="scoreText"></h3>
+
+<hr>
+
+<h3>Leaderboard</h3>
+<ul id="leaderboard"></ul>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
